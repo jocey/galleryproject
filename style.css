@@ -1,3 +1,39 @@
 body {
     background-color: powderblue;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 150px 1fr;
+    grid-auto-rows: 150px;
+    grid-gap: 10px;
+}
+
+.boxAbout {
+    color: white;
+    background-color: blue;
+}
+
+.boxReel {
+    color: white;
+    background-color: purple;
+    overflow: auto;
+    height: 80vh;
+}
+
+.boxReel > div {
+    display: grid;
+    grid-template-rows: 80x
+    max-width: 100px;
+    background-color: MediumPurple;
+}
+
+.boxPhoto {
+    color: white;
+    background-color: green;
+    grid-column-start: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 3;
+    height: 98vh;
+}

@@ -103,14 +103,30 @@ h1 {
     .container > aside {
         background-color: mediumPurple;
         color: black;
+        
+    }
+       
+    #scrollContainer1{
+        height: 100%;
+        width: 100%;
+        border: 1px solid cyan;
+        overflow: hidden;
+
+    }
+
+    #scrollContainer2{
+        width: 100%;
+        height: 100%;
+        background-color: LimeGreen;
+        padding-right: 17px; /* adjust to move/hide right scrollbar */
+        /* padding-bottom: 6px; /* adjust to move/hide bottom scrollbar */
+        overflow: auto;
         display: flex;
-        flex-direction: row;        
+        flex-direction: row;
     }
     
-    .container > aside > img {
-        padding: 3px;
-        min-width: 100px;
-        min-height: 100px;
-        object-fit: cover;
+    .thumbnails {
+        min-width: 130px;
+        padding: 2px;
     }
 }

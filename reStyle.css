@@ -19,8 +19,18 @@ main {
     grid-column-end: 3;
     grid-row-start: 1; 
     grid-row-end: 3;
-    padding: 20px;
+    padding-top: 5%;
     background-color: gray;
+}
+
+#expandedPhoto {
+    background-color: teal;
+    width: 90%;
+}
+
+#caption {
+    padding: 20px;
+    color: black;
 }
 
 
@@ -32,6 +42,14 @@ header {
     color: white;
 }
 
+#aboutText {
+    display: none;
+    color: black;
+}
+
+header:hover {
+    opacity: 0.5;
+}
 
 /* photo reel */
 aside {
@@ -72,11 +90,6 @@ aside {
     opacity: 0.5;
 }
 
-h1 {
-    margin-bottom: 1em;
-    font-size: 1.3em;
-    font-weight: bold;
-}
 
 /* mobile layout ----------------------------- */
 
@@ -103,14 +116,27 @@ h1 {
     .container > aside {
         background-color: mediumPurple;
         color: black;
+        
+    }
+       
+    #scrollContainer1{
+        height: 100%;
+        width: 100%;
+        border: 1px solid cyan;
+        overflow: hidden;
+    }
+
+    #scrollContainer2{
+        width: 100%;
+        height: 100%;
+        background-color: LimeGreen;
+        overflow: auto;
         display: flex;
-        flex-direction: row;        
+        flex-direction: row;
     }
     
-    .container > aside > img {
-        padding: 3px;
-        min-width: 100px;
-        min-height: 100px;
-        object-fit: cover;
+    .thumbnails {
+        min-width: 130px;
+        padding: 2px;
     }
 }

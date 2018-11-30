@@ -1,6 +1,13 @@
 # galleryproject
 testing out a gallery
 
+-----
+### TODO
+- make the about section work
+- fix up height issues (scrolling, display changing?, media format)
+
+-----
+### Changelog
 <dl>
   <dt>181129</dt>
   <dd>

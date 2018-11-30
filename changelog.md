@@ -9,6 +9,11 @@ testing out a gallery
 -----
 ### Changelog
 <dl>
+  <dt>181130</dt>
+  <dd>
+    
+  </dd>
+  
   <dt>181129</dt>
   <dd>
     Fixed reel in media format to overflow properly<br/>
@@ -35,5 +40,10 @@ testing out a gallery
     Rebuild website<br/>
     Use grid css<br/>
     Left aligned photoreel
+  </dd>
+  
+  <dt></dt>
+  <dd>
+    
   </dd>
 </dl>

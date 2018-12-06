@@ -16,14 +16,14 @@
   <dt>181207</dt>
   <dd>
     Changed colours and removed random background colours<br/>
-    Adjusted margins and page sizing<br?>
-    Added fade in for images, doesn't work properly yet
+    Adjusted margins and page sizing<br/>
+    Added fade in for images; Doesn't work properly yet
   </dd>
   
   <dt>181206</dt>
   <dd>
     Changed and added to script1.js to show/hide about text in the appropriate section<br/>
-    tweak height issue with mobile view<br?>
+    Tweak height issue with mobile view<br/>
     Reduced photoreel and thumbnails size from 150px to 100px
   </dd>
   

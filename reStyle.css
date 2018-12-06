@@ -1,7 +1,8 @@
 body {
-    font-family: arial;
+    font-family: georgia, serif;
     text-align: center;
-    background-color: grey;    
+    background-color: #cccccc;
+    background-image: linear-gradient(#cccccc, #333333);
 }
 
 
@@ -10,8 +11,8 @@ body {
     display: grid;
     grid-template-columns: 100px 1fr 100px;
     grid-template-rows: 100px 1fr auto;
-    min-height: 98vh;
-    
+    min-height: 100vh;    
+    margin: 0px;
 }
 
 /* expanded photo */
@@ -20,18 +21,28 @@ main {
     grid-column-end: 3;
     grid-row-start: 1; 
     grid-row-end: 3;
-    padding-top: 5%;    
+    padding-top: 2%;    
 }
+
+@keyframes fade {
+  0%   {opacity: 0.2}
+  50%  {opacity: 0.6}
+  100% {opacity: 1.0}
+}
+
 
 #expandedPhoto {
     width: 90%;
-    height: 83vh;
+    height: 85vh;
     object-fit: contain;
+    display:none;
+    animation: fade 2s;
 }
 
 #caption {
     padding: 20px;
-    color: black;
+    color: white;
+    display: none;
 }
 
 #aboutText {
@@ -60,7 +71,6 @@ aside {
     color: white;
     max-height: 100%;
     overflow: hidden;
-    background-color: purple;    
 }
 
 #scrollContainer1{
@@ -78,14 +88,15 @@ aside {
 }
 
 .thumbnails { 
-    width: 100px;   /* change thumbnail size to fill up the container */
-    height: 100px;
+    width: 98px;   /* change thumbnail size to fill up the container */
+    height: 98px;
     object-fit: cover;
-    /*border: 1px solid red;*/
+    border: 1px solid black;
+    opacity: 0.5;
 }
 
 .thumbnails:hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 

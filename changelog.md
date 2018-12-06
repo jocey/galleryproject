@@ -1,15 +1,21 @@
 # galleryproject
 
 ### TODO
-- make the about section work
+- colours, text, aesthetic polishing
 - fix up height issues (scrolling, display changing?, media format)
 
 -----
 ### Changelog
 <dl>
-  <dt>181130</dt>
+  <dt>1812</dt>
   <dd>
     
+  </dd>
+  
+  <dt>1812</dt>
+  <dd>
+    Changed and added to script1.js to show/hide about text in the appropriate section<br/>
+    tweak height issue with mobile view
   </dd>
   
   <dt>181129</dt>

@@ -12,7 +12,7 @@
     
   </dd>
   
-  <dt>1812</dt>
+  <dt>181206</dt>
   <dd>
     Changed and added to script1.js to show/hide about text in the appropriate section<br/>
     tweak height issue with mobile view

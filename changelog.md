@@ -4,6 +4,9 @@
 - colours, text, aesthetic polishing
 - fix fade-in when switching between images
 - fix up media format
+- google chrome scrolling
+- embed about in photo reel
+- sccript for content management
 
 -----
 ### Changelog

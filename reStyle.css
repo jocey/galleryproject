@@ -52,7 +52,6 @@ main {
 /* about section */
 header {
     grid-column: 3;
-    padding: 30px;
     background-color: blue;
     color: white;
 }
@@ -64,7 +63,7 @@ header:hover {
 /* photo reel */
 aside {
     grid-column-start: 3;
-    grid-row-start: 2; 
+    grid-row-start: 1; 
     grid-row-end: 4;
  /*   padding: 5px; /* change this to change size of scrollcontainer1 */
     padding-top: 3px;
@@ -102,7 +101,7 @@ aside {
 
 /* mobile layout ----------------------------- */
 
-@media (max-width: 768px) {
+@media (max-width: 698px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -121,7 +120,6 @@ aside {
     
     /* about section */
     header {
-        padding: 5px;
         background-color: powderblue;
         color: black;
     }

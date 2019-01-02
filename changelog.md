@@ -1,19 +1,20 @@
 # galleryproject
 
 ### TODO
-- colours, text, aesthetic polishing
+- affix mobile-layout reel to bottom of screen
 - fix fade-in when switching between images
 - fix up media format
 - google chrome scrolling
-- embed about in photo reel
 - sccript for content management
+- *colours, text, aesthetic polishing have been branched off*
 
 -----
 ### Changelog
 <dl>
-  <dt>1812</dt>
+  <dt>190103</dt>
   <dd>
-    
+    Rearranged ABOUT. (The difference in margins doesn't matter; I think the final version will have transparent bg.)<br/><br/>
+    The other branch makes the behaviour of the mobile reel clear: it's floating below the main content, but has a maximum height it'll stray from the bottom of the page. If that helps to troubleshoot that issue.
   </dd>
   
   <dt>181207</dt>

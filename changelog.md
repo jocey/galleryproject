@@ -17,8 +17,7 @@
   <dd>
     Rearranged ABOUT. (The difference in margins doesn't matter; I think the final version will have transparent bg.)<br/><br/>
     The other branch makes the behaviour of the mobile reel clear: it's floating below the main content, but has a maximum height it'll stray from the bottom of the page. If that helps to troubleshoot that issue.<br/><br/>
-    
-    redo layout
+    redo layout<br/>
     fixed about section thumbnail and spacing<br/>
     fix photoreel on mobile layout
   </dd>

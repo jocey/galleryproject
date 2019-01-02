@@ -5,8 +5,10 @@
 - fix fade-in when switching between images
 - fix up media format
 - google chrome scrolling
-- sccript for content management
+- separate framework & content
 - *colours, text, aesthetic polishing have been branched off*
+
+**far future:** script for content management
 
 -----
 ### Changelog

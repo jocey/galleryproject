@@ -1,8 +1,9 @@
 body {
+    background-color: #f7f7f7;
     font-family: georgia, serif;
     text-align: center;
-    color: #555555;
-    background-color: #eeeeee;
+    font-size: 12pt;
+    color: #505050;
 }
 
 
@@ -19,7 +20,7 @@ body {
 main {
     grid-column-start: 1;
     grid-column-end: 2;
-    padding-top: 2%;    
+    padding-top: 2%;
 }
 
 @keyframes fade {
@@ -37,32 +38,48 @@ main {
     animation: fade 2s;
 }
 
-#caption {
-    padding: 20px;
+#photoCaption {
+    font-size:16pt;
     display: none;
 }
 
 #aboutText {
-    
+    letter-spacing:0.02em;
+    line-height:1.8em;
+    padding:8%;
+}
+#aboutText h1 {
+    letter-spacing: 0.1em; 
+    word-spacing: 0.2em; 
+    padding-bottom:0.8em;
+}
+
+#aboutText p {
+    padding-bottom:0.2em;
+}
+
+#aboutText a {
+    color:#508890;
 }
 
 /* about section */
 header {
     grid-column: 2;
-    background-color: #222222;
-    color: white;
+    color:#505050;
     margin-bottom: 2px;
 }
 
-header:hover {
-    opacity: 0.5;
+header p {
+    margin-top: 0px;
+    padding:35px 0 0 2px;
+    font-style: italic;
+    letter-spacing:0.04em;
 }
 
 /* photo reel */
 aside {
     grid-column-start: 2;
     padding-top: 2px;
-    color: white;
     max-height: 100%;
     overflow: hidden;
 }
@@ -112,12 +129,12 @@ aside {
     
     /* about section */
     header {
-        color: white;
+        
     }
     
     /* photo reel */
     aside {
-        color: black;
+        
     }
        
     #scrollContainer1{

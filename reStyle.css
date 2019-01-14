@@ -81,10 +81,9 @@ aside {
 }
 
 .thumbnails { 
-    width: 98px;
-    height: 98px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    border: 1px solid black;
     opacity: 0.5;
 }
 

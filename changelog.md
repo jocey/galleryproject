@@ -13,6 +13,14 @@
 -----
 ### Changelog
 <dl>
+  <dt>190115</dt>
+  <dd>
+    Removed the borders around thumbnails<br/>
+    Updated major visual elements to match changed made in the visual-rehaul branch<br/>
+    Changed a few variables and edited script to match<br/>
+    Deleted original style.css file (no longer used)
+  </dd>
+  
   <dt>190103</dt>
   <dd>
     Rearranged ABOUT. (The difference in margins doesn't matter; I think the final version will have transparent bg.)<br/><br/>

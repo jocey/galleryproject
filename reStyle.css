@@ -111,7 +111,7 @@ aside {
 
 /* mobile layout ----------------------------- */
 
-@media (max-width: 698px) {
+@media (max-aspect-ratio: 5/4) {
     .container {
         display: flex;
         flex-direction: column;

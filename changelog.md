@@ -13,6 +13,9 @@
 -----
 ### Changelog
 <dl>
+  <dt>190117</dt>
+  <dd>@media vertical conditions now based on aspect ratio (also more logically includes half-screen windows)</dd>
+
   <dt>190115</dt>
   <dd>
     Removed the borders around thumbnails<br/>

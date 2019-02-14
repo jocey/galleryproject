@@ -1,10 +1,9 @@
 # galleryproject
 
 ### TODO
-- affix mobile-layout reel to bottom of screen
+- affix mobile-layout reel to bottom of screen (part-solved?)
 - fix fade-in when switching between images
 - fix up media format
-- google chrome scrolling
 - separate framework & content
 - *colours, text, aesthetic polishing have been branched off*
 
@@ -13,6 +12,11 @@
 -----
 ### Changelog
 <dl>
+  <dt>190214</dt>
+  <dd>
+    google chrome bug fixed
+    added probably duct-taped minor shiet (X button, useless arrows)</dd>
+  
   <dt>190117</dt>
   <dd>@media vertical conditions now based on aspect ratio (also more logically includes half-screen windows)</dd>
 

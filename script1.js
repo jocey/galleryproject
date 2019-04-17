@@ -21,4 +21,3 @@ function showAbout() {
     document.getElementById("photoCaption").style.display="none";
     document.getElementById("aboutText").style.display="block";
 }
-

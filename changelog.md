@@ -11,9 +11,9 @@
 
 
 **broader site checklist:**
-- GALLERY POPUPS | each gallery page displaying as a lightbox over the index page (https://html5box.com/blog/jquery-lightbox/open-webpage-with-html5-lightbox/?). clicking the X in the corner would make it remove itself (as opposed to being a plain index link - I don't really want the index to keep reloading).
 - IMAGE-ONLY GALLERY | instead of a text intro, I want a version that is images only & opens on image 1. let's name that script_gallery_images.js
 - PROSE ARCHIVE | script where text intro displays by default, & clicking text A displays text B. separation of layout & content would be ideal.
+- GALLERY POPUPS (low priority) | each gallery page displaying as a lightbox over the index page (https://html5box.com/blog/jquery-lightbox/open-webpage-with-html5-lightbox/?). clicking the X in the corner would make it remove itself (as opposed to being a plain index link - I don't really want the index to keep reloading).
 
 -----
 ### Changelog

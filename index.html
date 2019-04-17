@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>this is a weebsite</title>
-    <link rel="stylesheet" href="reStyle.css">
+    <title>&lsquo; little sister &rsquo; &nbsp;| &nbsp; JAZZSCENES</title>
+    <link rel="stylesheet" href="style_gallery.css">
     
     <meta name="viewport" content="width=device-width">
 </head>
 
 <body class="container">
-    <script src="script1.js"></script>
-    
-    <div id="X"><a href="#">&#215;</a></div>
-    
+    <script src="script_gallery_intro.js"></script>
+
+    <div id="X"><a href="#">&#215;</a></div>  
+
     <!-- expanded photo -->
     <main>
+<div id="nav_back"><p />&#9668;</div>
         <img id="expandedPhoto">
-        <div id="photoCaption"></div>
-        <div id="aboutText">
+        <div id="caption"></div>
+        <div id="about">
             <h1>&lsquo; little sister &rsquo;</h1>
-            <p />Serialised strip for <em>Craccum</em> magazine at the University of Auckland, 2015.<br/>
-            <p />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <p />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="https://github.com/jocey/galleryproject">github bois</a>
+		<div id="aboutCopy">	
+            <p />Serialised strip for <em>Craccum</em> magazine at the University of Auckland, 2015.
+<p />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<p />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		</div>
         </div>
+
+<div id="nav_forward"><p />&#9658;</div>
     </main>
     
     <!-- photo reel -->
     <aside>
-    <div id="nav_back"><p />&#9650;</div>
-        <div id="scrollContainer1">
-            <div id="scrollContainer2">
-                <!-- About box -->
-                <header class="thumbnails" onclick=showAbout()><p />about</header>
-                
-                <!-- Image thumbnails -->
+        <div id="scrollContainer">
+                    <!-- About box -->
+                    <header class="thumbnails" onclick=showAbout()><p />about</header>
                 <img class="thumbnails" src="img/1.jpg" alt="2000x2000" onclick=expand(this)>
                 <img class="thumbnails" src="img/2.jpg" alt="1200x2000" onclick=expand(this)>
                 <img class="thumbnails" src="img/3.jpg" alt="2000x1200" onclick=expand(this)>
                 <img class="thumbnails" src="img/4.jpg" alt="1200x1200" onclick=expand(this)>
                 <img class="thumbnails" src="img/5.jpg" alt="2500x1200" onclick=expand(this)>
                 <img class="thumbnails" src="img/thumbstrip01.jpg" alt="mountains" onclick=expand(this)>
-                <img class="thumbnails" src="img/thumbstrip04.jpg" alt="ski person" onclick=expand(this)><img class="thumbnails" src="img/1.jpg" alt="2000x2000" onclick=expand(this)><img class="thumbnails" src="img/1.jpg" alt="2000x2000" onclick=expand(this)>
+                <img class="thumbnails" src="img/thumbstrip04.jpg" alt="ski person" onclick=expand(this)>
+
+                <img class="thumbnails" src="img/1.jpg" alt="2000x2000" onclick=expand(this)>
                 <img class="thumbnails" src="img/2.jpg" alt="1200x2000" onclick=expand(this)>
                 <img class="thumbnails" src="img/3.jpg" alt="2000x1200" onclick=expand(this)>
                 <img class="thumbnails" src="img/4.jpg" alt="1200x1200" onclick=expand(this)>
                 <img class="thumbnails" src="img/5.jpg" alt="2500x1200" onclick=expand(this)>
                 <img class="thumbnails" src="img/thumbstrip01.jpg" alt="mountains" onclick=expand(this)>
                 <img class="thumbnails" src="img/thumbstrip04.jpg" alt="ski person" onclick=expand(this)>
-                <div>more photos</div>
-                <div>more photos</div>
-                <div>more photos</div>
-            </div>
         </div>
-    <div id="nav_forward"><p />&#9660;</div>
     </aside>
 
 </body>
 </html>
-

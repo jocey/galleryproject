@@ -1,20 +1,31 @@
 # galleryproject
 
 ### TODO
-- affix mobile-layout reel to bottom of screen (part-solved?)
-- fix fade-in when switching between images
-- fix up media format
-- separate framework & content
-- *colours, text, aesthetic polishing have been branched off*
+- ZOOM:<br />click to toggle #expandedPhoto between {height: 88vh;} & {height:auto;}
+- FORWARD + BACK:<br />click arrow buttons to navigate between next & previous embedded image, or to move from intro to image #1
 
-**far future:** script for content management
+**maybes:**
+- separate framework & content
+- script to easily write uploaded image files into gallery html (tempted to drop this)
+- i wish the arrows would dynamically float a distance from the displayed image/text, & the caption floated between the bottom of the image & the bottom of the screen, but it's definitely not winning the priority war...
+
+
+**broader site checklist:**
+- GALLERY POPUPS | each gallery page displaying as a lightbox over the index page (https://html5box.com/blog/jquery-lightbox/open-webpage-with-html5-lightbox/?). clicking the X in the corner would make it remove itself (as opposed to being a plain index link - I don't really want the index to keep reloading).
+- IMAGE-ONLY GALLERY | instead of a text intro, I want a version that is images only & opens on image 1. let's name that script_gallery_images.js
+- PROSE ARCHIVE | script where text intro displays by default, & clicking text A displays text B. separation of layout & content would be ideal.
 
 -----
 ### Changelog
 <dl>
+  <dt>190417</dt>
+  <dd>navigation change - scrollbar, arrows.<br />
+    *index is now linked to script_gallery_intro and style_gallery.
+    i'm glassing the fork hahaha since that's basically on main now. how 2 remove properly?
+  
   <dt>190214</dt>
   <dd>
-    google chrome bug fixed
+    google chrome bug fixed<br/>
     added probably duct-taped minor shiet (X button, useless arrows)</dd>
   
   <dt>190117</dt>

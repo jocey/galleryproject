@@ -22,13 +22,19 @@ function showAbout() {
     document.getElementById("about").style.display="block";
 }
 
-// image toggles between height settings:
+
+// if aspect ratio is desktoppy:
+// image can toggle between height settings -
 // "88vh" (88% of viewport height)
 // "auto" (fills width of .main)
+
 function togglezoom() {
-if (document.getElementById("expandedPhoto").style.height === "88vh") {
-    document.getElementById("expandedPhoto").style.height = "auto";
-  } else {
-    document.getElementById("expandedPhoto").style.height = "88vh";
-  }
+
+if (window.matchMedia("(max-aspect-ratio: 5/4)").matches)
+ {document.getElementById("expandedPhoto").style.height = "88vh";}
+
+else if (document.getElementById("expandedPhoto").style.height === "88vh")
+ {document.getElementById("expandedPhoto").style.height = "auto";}
+
+else {document.getElementById("expandedPhoto").style.height = "88vh";}
 }

@@ -20,6 +20,7 @@
 <dl>
   <dt>190430</dt>
   <dd>Zoom implemented!!! I wrote a code!!!!! T__T<br />
+    Buggy in vertical/mobile mode - need to disable where @media (max-aspect-ratio: 5/4).<br />
     Testing vertical image in about section.
   
   <dt>190417</dt>

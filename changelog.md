@@ -1,32 +1,35 @@
 # galleryproject
 
 ### TODO
-- ZOOM:<br />click to toggle #expandedPhoto between {height: 88vh;} & {height:auto;}
 - FORWARD + BACK:<br />click arrow buttons to navigate between next & previous embedded image, or to move from intro to image #1
 
 **maybes:**
 - separate framework & content
+- function togglezoom() - debating whether state should reset to zoomed-out (88vh) upon clicking to a different image, or whether (current behaviour) it should retain its state across images
 - script to easily write uploaded image files into gallery html (tempted to drop this)
 - i wish the arrows would dynamically float a distance from the displayed image/text, & the caption floated between the bottom of the image & the bottom of the screen, but it's definitely not winning the priority war...
 
 
 **broader site checklist:**
-- IMAGE-ONLY GALLERY | instead of a text intro, I want a version that is images only & opens on image 1. let's name that script_gallery_images.js
+- IMAGE-ONLY GALLERY | instead of a text intro, I want a version that is images only & opens on image 1. name the code script_gallery_images.js pls
 - PROSE ARCHIVE | script where text intro displays by default, & clicking text A displays text B. separation of layout & content would be ideal.
 - GALLERY POPUPS (low priority) | each gallery page displaying as a lightbox over the index page (https://html5box.com/blog/jquery-lightbox/open-webpage-with-html5-lightbox/?). clicking the X in the corner would make it remove itself (as opposed to being a plain index link - I don't really want the index to keep reloading).
 
 -----
 ### Changelog
 <dl>
+  <dt>190430</dt>
+  <dd>Zoom implemented!!! I wrote a code!!!!! T__T
+  
   <dt>190417</dt>
   <dd>navigation change - scrollbar, arrows.<br />
-    *index is now linked to script_gallery_intro and style_gallery.
-    i'm glassing the fork hahaha since that's basically on main now. how 2 remove properly?
+    *index now pulls from script_gallery_intro and style_gallery for its JS & CSS, respectively.
+    i'm glassing the fork hahaha since we've basically pushed everything to main at this point.
   
   <dt>190214</dt>
   <dd>
     google chrome bug fixed<br/>
-    added probably duct-taped minor shiet (X button, useless arrows)</dd>
+    added probably duct-taped-together minor shiet (X button, useless arrows)</dd>
   
   <dt>190117</dt>
   <dd>@media vertical conditions now based on aspect ratio (also more logically includes half-screen windows)</dd>

@@ -1,4 +1,4 @@
-// essentially the w3s gallery script
+// display gallery images
 function expand(imgs) {
     // reset the .display properties
     document.getElementById("expandedPhoto").style.display="initial";
@@ -22,3 +22,13 @@ function showAbout() {
     document.getElementById("about").style.display="block";
 }
 
+// image toggles between height settings:
+// "88vh" (88% of viewport height)
+// "auto" (fills width of .main)
+function togglezoom() {
+if (document.getElementById("expandedPhoto").style.height === "88vh") {
+    document.getElementById("expandedPhoto").style.height = "auto";
+  } else {
+    document.getElementById("expandedPhoto").style.height = "88vh";
+  }
+}

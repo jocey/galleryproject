@@ -19,7 +19,8 @@
 ### Changelog
 <dl>
   <dt>190430</dt>
-  <dd>Zoom implemented!!! I wrote a code!!!!! T__T
+  <dd>Zoom implemented!!! I wrote a code!!!!! T__T<br />
+    Testing vertical image in about section.
   
   <dt>190417</dt>
   <dd>navigation change - scrollbar, arrows.<br />

@@ -1,6 +1,6 @@
 body {
     font-family: georgia, serif;
-font-size:12pt;
+    font-size:12pt;
     text-align: center;
     color: #505050;
     background-color: #f9f9f9;
@@ -33,23 +33,23 @@ main {
 }
 
 #caption {
-position:relative;
-font-size:16pt;
-padding:0.6em 0 1em 0;
+    position:relative;
+    font-size:16pt;
+    padding:0.6em 0 1em 0;
     display: none;
 }
 
 #about {
-letter-spacing:0.02em;
-line-height:1.8em;
-padding:8%;
-animation: fade 1.25s;
+    letter-spacing:0.02em;
+    line-height:1.8em;
+    padding:8%;
+    animation: fade 1.25s;
 }
 
 #about h1 {
-letter-spacing: 0.1em;
-word-spacing: 0.2em;
-padding-bottom:0.8em;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    padding-bottom:0.8em;
 }
 
 #aboutCopy {transition: 0.5s;}
@@ -59,14 +59,14 @@ padding-bottom:0.8em;
 #aboutCopy a {color:#508890;}
 
 #aboutImg {
-position:relative;
-float:right;
-padding-left:70px;
-bottom:15px;
+    position:relative;
+    float:right;
+    padding-left:70px;
+    bottom:15px;
 }
 
 #aboutImg img {
-width:500px;
+    width:500px;
 }
 
 /* about icon */
@@ -88,8 +88,8 @@ aside {
     color: white;
     max-height:100%;
     overflow: hidden;
-margin:0;
-padding-top:60px;
+    margin:0;
+    padding-top:60px;
 }
 
 #scrollContainer{
@@ -104,8 +104,8 @@ padding-top:60px;
     object-fit: cover;
     border: 1px solid #f9f9f9;
     opacity: 0.5;
-transition:0.8s;
-cursor:crosshair;
+    transition:0.8s;
+    cursor:crosshair;
 }
 
 .thumbnails:hover {
@@ -114,14 +114,14 @@ cursor:crosshair;
 
 
 #X {
-position:absolute;
-z-index:1;
-height:10px;
-width:10px;
-right:30px;
-top:25px;
-font-size:32pt;
-line-height:0;
+    position:absolute;
+    z-index:1;
+    height:10px;
+    width:10px;
+    right:30px;
+    top:25px;
+    font-size:32pt;
+    line-height:0;
 }
 
 #X a {color:#a0a0a0; text-decoration:none; cursor:crosshair;}
@@ -130,35 +130,37 @@ line-height:0;
 /*arrows*/
 
 #nav_back {
-z-index:1;
-/*height, width & border create the circle*/
-height: 35px;
-width: 35px;
-border-radius: 50%;
-background:#303030;
-opacity:0.6;
-font-size:18pt;
-color:#f7f7f7;
+    z-index:1;
+    /*height, width & border create the circle*/
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background:#303030;
+    opacity:0.6;
+    font-size:18pt;
+    color:#f7f7f7;
 
-position:absolute;
-left:30px;
-top:50%;}
+    position:absolute;
+    left:30px;
+    top:50%;
+}
 
 #nav_back p {margin:0; padding:4px 5px 0 0;}
 
 #nav_forward {
-z-index:1;
-height: 35px;
-width: 35px;
-border-radius: 50%;
-background:#303030;
-opacity:0.6;
-font-size:18pt;
-color:#f7f7f7;
+    z-index:1;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background:#303030;
+    opacity:0.6;
+    font-size:18pt;
+    color:#f7f7f7;
 
-position:absolute;
-right:150px;
-top:50%;}
+    position:absolute;
+    right:150px;
+    top:50%;
+}
 
 #nav_forward p {margin:0; padding:4px 0 0 5px;}
 

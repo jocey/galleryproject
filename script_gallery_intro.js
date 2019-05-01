@@ -31,7 +31,7 @@ function showAbout() {
 function togglezoom() {
 
 if (window.matchMedia("(max-aspect-ratio: 5/4)").matches)
- {document.getElementById("expandedPhoto").style.height = "88vh";}
+ {return;}
 
 else if (document.getElementById("expandedPhoto").style.height === "88vh")
  {document.getElementById("expandedPhoto").style.height = "auto";}

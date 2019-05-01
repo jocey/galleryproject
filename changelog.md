@@ -3,25 +3,24 @@
 ### TODO
 - FORWARD + BACK:<br />click arrow buttons to navigate between next & previous embedded image, or to move from intro to image #1
 
-**maybes:**
-- separate framework & content
-- function togglezoom() - debating whether state should reset to zoomed-out (88vh) upon clicking to a different image, or whether (current behaviour) it should retain its state across images
-- script to easily write uploaded image files into gallery html (tempted to drop this)
-- i wish the arrows would dynamically float a distance from the displayed image/text, & the caption floated between the bottom of the image & the bottom of the screen, but it's definitely not winning the priority war...
-
-
 **broader site checklist:**
 - IMAGE-ONLY GALLERY | instead of a text intro, I want a version that is images only & opens on image 1. name the code script_gallery_images.js pls
 - PROSE ARCHIVE | script where text intro displays by default, & clicking text A displays text B. separation of layout & content would be ideal.
 - GALLERY POPUPS (low priority) | each gallery page displaying as a lightbox over the index page (https://html5box.com/blog/jquery-lightbox/open-webpage-with-html5-lightbox/?). clicking the X in the corner would make it remove itself (as opposed to being a plain index link - I don't really want the index to keep reloading).
+
+
+**maybes (for this gallery):**
+- separate framework & content
+- function togglezoom() - debating whether state should reset to zoomed-out (88vh) upon clicking to a different image, or whether (current behaviour) it should retain its state across images
+- script to easily write uploaded image files into gallery html (tempted to drop this)
+- i wish the arrows would dynamically float a distance from the displayed image/text, & the caption floated between the bottom of the image & the bottom of the screen, but it's definitely not winning the priority war...
 
 -----
 ### Changelog
 <dl>
   <dt>190430</dt>
   <dd>Zoom implemented!!! I wrote a code!!!!! T__T<br />
-    Would appreciate corrections if "disable on (max-aspect-ratio: 5/4)" can be writen better than how I did it lol orz<br />
-    Meanwhile, testing vertical image in about section.
+    Cover images embeddable in about section.
   
   <dt>190417</dt>
   <dd>navigation change - scrollbar, arrows.<br />

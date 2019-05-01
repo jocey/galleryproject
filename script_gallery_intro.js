@@ -31,23 +31,21 @@ function showAbout() {
 
 function togglezoom() {
 
-if (window.matchMedia("(max-aspect-ratio: 5/4)").matches)
- {return;}
+    if (window.matchMedia("(max-aspect-ratio: 5/4)").matches) 
+    {
+        return;
+    } 
+    else if (document.getElementById("expandedPhoto").style.height === "88vh")
+    {
+        document.getElementById("expandedPhoto").style.height = "auto";
+        document.getElementById("expandedPhoto").style.width = "90%";
+        document.getElementById("expandedPhoto").style.cursor = "zoom-out";
+    }
+    else 
+    {
+        document.getElementById("expandedPhoto").style.height = "88vh";
+        document.getElementById("expandedPhoto").style.width = "auto";
+        document.getElementById("expandedPhoto").style.cursor = "zoom-in";
+    }
 
-else if (document.getElementById("expandedPhoto").style.height === "88vh")
- {document.getElementById("expandedPhoto").style.height = "auto";}
-
-else {document.getElementById("expandedPhoto").style.height = "88vh";}
-}
-
-
-function cursor() {
-
-if (window.matchMedia("(max-aspect-ratio: 5/4)").matches)
- {return;}
-
-else if (document.getElementById("expandedPhoto").style.height === "auto")
- {document.getElementById("expandedPhoto").style.cursor = "zoom-out;"}
-
-else {document.getElementById("expandedPhoto").style.cursor = "zoom-in;"}
 }

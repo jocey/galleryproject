@@ -30,7 +30,6 @@ main {
     height: 88vh;
     object-fit: contain;
     display:none;
-cursor:zoom-in;
 }
 
 #caption {
